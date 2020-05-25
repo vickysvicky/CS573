@@ -1,0 +1,41 @@
+README
+
+NaiveBayes.java
+
+----------------------PROGRAM DESCRIPTION-----------------------
+
+Given a set of preproccesed training and test data, this program 
+uses Naive Bayes classifiers to classify document into (classes 
+provided in map.csv) different classes. 
+
+Two classifiers are used in this program: Maximum Likelihood
+Estimator and Bayesian Estimator.
+
+This program learns the Naive Bayes classifiers first with the
+training data. Then it will evaluate the accuracy of both
+classifiers with provided training and testing data.
+
+Program returns the results such as: class priors, overall
+accuracy, class accuracy, and confusion matrix based on the
+evaluation made.
+
+DEBUGGING flag is initially set to FALSE.
+
+
+----------------------------HOW TO-------------------------------
+
+The program should be compiled in terminal(have to be in correct
+directory first) with the line below:
+
+	javac NaiveBayes.java
+
+
+Then run it by calling: 
+
+	java -cp <directory> NaiveBayes.NaiveBayes
+
+
+where <directory> should look something like /Users/Downloads/
+and all input files (vocabulary, map, train_data, train_label,
+test_data, test_label) should be in the same folder as 
+NaiveBayes.java
